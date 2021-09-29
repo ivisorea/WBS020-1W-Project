@@ -1,4 +1,55 @@
-body{
+
+@font-face {
+    font-family: "Roboto";
+    src:  
+      url("/fonts/Roboto-BlackItalic.ttf") format("truetype"),
+      url("/fonts/Roboto-Bold.ttf ") format("truetype"),
+      url("/fonts/Roboto-BoldItalic.ttf") format("truetype"), 
+      url("/fonts/Roboto-Italic.ttf ") format("truetype"),
+      url("/fonts/Roboto-Light.ttf ") format("truetype"),
+      url("/fonts/Roboto-LightItalic.ttf ") format("truetype"),
+      url("/fonts/Roboto-Medium.ttf ") format("truetype"),
+      url("/fonts/Roboto-MediumItalic.ttf ") format("truetype"),
+      url("/fonts/Roboto-Regular.ttf ") format("truetype"),
+      url("/fonts/Roboto-Thin.ttf ") format("truetype"),
+      url("/fonts/Roboto-ThinItalic.ttf") format("truetype"),
+      url("/fonts/Roboto-Black.ttf") format("truetype");
+
+
+
+    font-family: "PlayfairDisplaySC";
+    src: url("/fonts/PlayfairDisplaySC-Black.ttf ") format("truetype"),
+         url("/fonts/PlayfairDisplaySC-BlackItalic.ttf ") format("truetype"),
+         url("/fonts/PlayfairDisplaySC-Bold.ttf ") format("truetype"),
+         url("/fonts/PlayfairDisplaySC-BoldItalic.ttf ") format("truetype"),
+         url("/fonts/PlayfairDisplaySC-Italic.ttf ") format("truetype"),
+         url("/fonts/PlayfairDisplaySC-Regular.ttf ") format("truetype");
+         
+
+
+    font-family: "HammersmithOne-Regular";
+    src: url("/fonts/HammersmithOne-Regular.ttf ") format("truetype");   
+} 
+
+.robototext {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5rem;
+
+}
+.PlayfairDisplay {
+    font-family: "RlayfairDisplaySC", serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+.HammersmithOne {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5rem;
+
+}
+
+
+body {
     font-size: 14px;
     font-family: "Roboto";
     color: rgba(51, 51, 51, 0.749);
