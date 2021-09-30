@@ -155,15 +155,19 @@ a:active, a:hover{
     background-size: cover;
     background-position: center;
 }
-.watch{
+ .watch {
+    display: flex;
+    justify-content: center;
     background-image: url(/images/bgk-middle.png);
     height: 30vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+   
 }
 
 .expertise{
+    display: flex;
     height: 30vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -171,6 +175,7 @@ a:active, a:hover{
 }
 
 .team{
+    display: flex;
     background-image: url(/images/bgk-header.png);
     height: 30vh;
     background-repeat: no-repeat;
@@ -179,6 +184,7 @@ a:active, a:hover{
 }
 
 .contact-client{
+    display: flex;
     height: 30vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -186,12 +192,19 @@ a:active, a:hover{
 }
 
 .footer{
+    display: flex;
     background-image: url(/images/bgk-footer.png);
     height: 30vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
+
+.cls-1 {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 3px;
+  }
 
 
 
@@ -235,3 +248,4 @@ justify-content: space-between;
 border: 1px solid #00e0d0;
 font-family: "HammersmithOne-Regular" sans-serif;
 }
+
