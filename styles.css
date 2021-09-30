@@ -50,12 +50,18 @@
 
 
 body {
+    
+    justify-content: center;
+     
     font-size: 14px;
     font-family: "Roboto";
     color: rgba(51, 51, 51, 0.749);
     line-height: 1.571;
     margin: 0;
 }
+
+
+ 
 
 .container{
     padding: 0 21.5em;
@@ -144,7 +150,7 @@ a:active, a:hover{
 
 .our-story{
    display:flex;
-    height: 30vh;
+    margin:2rem 20rem;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -190,17 +196,33 @@ a:active, a:hover{
 
 
 .our-story {
- display:flex;   
- margin: 5rem 10rem;
+     
+    color:grey;
+    display:flex;
+     
+margin: 5rem 18rem 5rem 18rem;
+justify-content: space-between;
 }
 
 .Logo-story-left {
-
+    width:240px;
+    height:230px;
+    margin-top: 1rem;
+    
 }
 
-.container-sory-right{
- padding: 0px 100px;
+#container-sory-right{
+    font-size: 1.5em;
+    margin-left: 4rem;
+    margin-top: 0rem;
+    margin-bottom: 1.5rem;
+    text-align: space;
+}
 
+#container-sory-right h3 {
+   
+    font-family: "RlayfairDisplaySC", serif;
+}
 
 }
 
