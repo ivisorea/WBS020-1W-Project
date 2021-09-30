@@ -143,7 +143,7 @@ a:active, a:hover{
 }
 
 .our-story{
-   
+   display:flex;
     height: 30vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -185,4 +185,31 @@ a:active, a:hover{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+
+
+.our-story {
+ display:flex;   
+ margin: 5rem 10rem;
+}
+
+.Logo-story-left {
+
+}
+
+.container-sory-right{
+ padding: 0px 100px;
+
+
+}
+
+.LearnMore{
+    border: 2px solid black;
+    align-content:center;
+
+}
+#story-button {
+border: 1px solid #00e0d0;
+font-family: "HammersmithOne-Regular" sans-serif;
 }
