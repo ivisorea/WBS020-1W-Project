@@ -135,8 +135,8 @@ a:active, a:hover{
     text-align: center;
     display: block;  
 }
-.hero hr{
-        background-color: rgb(0, 224, 208);
+hr{
+        background-color: #c6c4c9;
         width: 50px;
         height: 1px;
 }
@@ -167,11 +167,59 @@ a:active, a:hover{
 }
 
 .expertise{
-    display: flex;
-    height: 30vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.expertise div.container{
+    text-align: center;
+    display: block;  
+}
+
+ h2{
+    font-size: 1.5rem;
+    font-family: "Playfair Display";
+    color: rgb(65, 61, 75);
+    font-weight: bold;
+    line-height: 1.2;
+    margin-top: 4rem;
+ }
+ h4{
+    font-size: 1rem;
+    font-family: "Roboto";
+    color: rgb(65, 61, 75);
+    line-height: 1.2;
+}
+
+ .expertise .container p{
+    font-size: 1rem;
+    font-family: "Playfair Display";
+    color: rgba(47, 45, 53, 0.749);
+    line-height: 1.2;
+ }
+ .expertise .container .grid-container .grid-item p{
+    font-size: 1rem;
+    font-family: "Roboto";
+    color: rgba(51, 51, 51, 0.749); 
+    line-height: 1.571;
+ }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 3rem 0 6rem;
+    
+}
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid #ebebeb;
+    padding: 5em;
+    font-size: 2,2em;
+    text-align: center;
+
+
+    
 }
 
 .team{
