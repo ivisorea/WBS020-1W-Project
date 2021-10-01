@@ -176,11 +176,46 @@ a:active, a:hover{
 
 .team{
     display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    text-align: center;
     background-image: url(/images/bgk-header.png);
     height: 30vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.team h3 {
+    color:white;
+    font-family: "RlayfairDisplaySC", serif;
+}
+.team p {
+    color:white;
+    font-family: "RlayfairDisplaySC",  serif;
+}
+
+.team hr{
+    background-color: white;
+    width: 50px;
+    height: 1px;
+}
+
+.teamPictures{
+    display:flex;
+    justify-content: space-evenly;
+    border: 3px solid yellow;
+}
+
+.teamPictures img{
+    max-width: 420px;
+    max-height: 430px;
+     
+}
+
+.framesTeam {
+    border: 3px solid red;
+    max-height: 430px;
 }
 
 .contact-client{
@@ -233,11 +268,11 @@ justify-content: space-between;
 }
 
 #container-sory-right h3 {
-   
-    font-family: "RlayfairDisplaySC", serif;
+
+font-family: "RlayfairDisplaySC" serif;
 }
 
-}
+ 
 
 .LearnMore{
     border: 2px solid black;
