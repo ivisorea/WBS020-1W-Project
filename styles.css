@@ -229,6 +229,12 @@ hr{
     background-position: center;
 }
 
+.team div.container{
+    text-align: center;
+    display: flex;  
+    align-content:space-between;
+}
+
 .team h3 {
     color:white;
     font-family: "RlayfairDisplaySC", serif;
@@ -246,20 +252,30 @@ hr{
 
 .teamPictures {
     display:flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     border: 3px solid yellow;
 }
 
 .teamPictures img{
-    max-width: 420px;
-    max-height: 430px;
+    max-width: 20rem;
+    max-height: 20rem;
      
+}
+
+.framesTeam{
+   padding-left:1rem;
+   padding-right:1rem;
 }
 
 .framesTeam > h4{
     color:white;
     border: 3px solid red;
     max-height: 430px;
+}
+
+#team-button {
+    align-self:center;
+    justify-content: space-around;
 }
 
 .contact-client{
