@@ -223,10 +223,19 @@ hr{
     justify-content: baseline;
     text-align: center;
     background-image: url(/images/bgk-header.png);
-    height: 30vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    padding-top: 3rem;
+    padding-bottom:3rem;
+    min-height: 400px;
+}
+
+.team .container{
+    text-align: center;
+    display: block;  
+     
+     
 }
 
 .team h3 {
@@ -244,22 +253,38 @@ hr{
     height: 1px;
 }
 
-.teamPictures{
+.teamPictures {
     display:flex;
-    justify-content: space-evenly;
-    border: 3px solid yellow;
+    justify-content: space-around;
+   
+    margin-right:17rem;
+    margin-left:17rem;
+    border:3px solid yellow;
 }
 
-.teamPictures img{
-    max-width: 420px;
-    max-height: 430px;
+.teamPictures img {
+  
      
 }
 
-.framesTeam {
+.framesTeam{
+    border:3px solid grey;
+padding:0 0 0 0;
+margin:2rem 2rem;
+}
+
+.framesTeam > h4{
     color:white;
-    border: 3px solid red;
-    max-height: 430px;
+     
+     
+}
+
+#team-button {
+    align-self:center;
+    justify-content: space-around;
+    border: 1px solid #00e0d0;
+    font-family: "HammersmithOne-Regular" sans-serif;
+    font-size:1.5em;
 }
 
 .contact-client{
