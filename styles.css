@@ -257,6 +257,7 @@ hr{
 }
 
 .framesTeam {
+    color:white;
     border: 3px solid red;
     max-height: 430px;
 }
