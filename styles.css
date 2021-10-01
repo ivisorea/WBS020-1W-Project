@@ -244,7 +244,7 @@ hr{
     height: 1px;
 }
 
-.teamPictures{
+.teamPictures {
     display:flex;
     justify-content: space-evenly;
     border: 3px solid yellow;
@@ -256,7 +256,7 @@ hr{
      
 }
 
-.framesTeam {
+.framesTeam > h4{
     color:white;
     border: 3px solid red;
     max-height: 430px;
