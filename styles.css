@@ -151,14 +151,25 @@ hr{
     background-position: center;
 }
  .watch {
-    display: flex;
+   display: flex;
+    align-content: center;
     justify-content: center;
     background-image: url(/images/bgk-middle.png);
-    height: 30vh;
+    height: 44vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    color: white;
+    
    
+}
+.watch h4{
+    color: white;
+}
+.small h4{
+    display: block; 
+    text-align: center; 
+    
 }
 
 .expertise{
