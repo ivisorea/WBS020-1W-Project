@@ -208,16 +208,20 @@ hr{
 }
 .grid-item {
     background-color: rgba(255, 255, 255, 0.8);
-    border: 2px solid #ebebeb;
+    border-right: 1px solid #ebebeb;
     padding: 5em;
     font-size: 2,2em;
-    text-align: center;
-
-
-    
+    text-align: center;  
+}
+.last-item {
+    border-right: none;
 }
 
-.team{
+.bottom-item {
+    border-top: 1px solid #ebebeb;
+}
+
+.team {
     display: flex;
     flex-direction: column;
     justify-content: baseline;
