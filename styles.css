@@ -56,6 +56,7 @@ body {
     color: rgba(51, 51, 51, 0.749);
     line-height: 1.571;
     margin: 0;
+    
 }
 
 .container{
@@ -79,6 +80,7 @@ a:active, a:hover{
         border: 1px solid #00e0d0;
         border-radius: 2px;
         padding: .5em;
+        font-family: "HammersmithOne-Regular" sans-serif;
       }
       
 .hero{
@@ -93,6 +95,9 @@ a:active, a:hover{
     font-size: 2.1em;
     color: #3683a4;
     line-height: 1.2;
+    line-height: 1.2;
+    font-family: "Roboto", serif;
+    font-weight: lighter;
   }
 
 .main-logo{
@@ -282,8 +287,10 @@ hr{
 }
 
 .teamPictures img {
-  max-width: 20rem;
-  max-height: 24rem;
+    width: 100%;
+    height: auto;
+    max-width: 20rem;
+    max-height: 24rem;
 }
 
 .framesTeam{
@@ -296,8 +303,10 @@ margin: 1rem 2rem;
 
 .framesTeam > h4{
     color:white;
-    padding :1rem 1rem;
-     
+    padding :0.1rem 1rem;
+    font-family: "Roboto", serif;
+    font-weight: lighter;
+    
 }
 
 #team-button {
@@ -310,56 +319,49 @@ margin: 1rem 2rem;
 
 .contact-client{
     display: flexbox;
-    background-color: teal;
-    
 }  
 
-.row{
-    display: flex;
-   
-}
-
-.column1, .column2{
-    flex: 50%;
-
+.contact-client .container {
+    align-items: baseline;
+    justify-content: center;
 }
 .column1{
-    display:column;
     font-size: 30px; 
-    background-color: rgba(184, 20, 20, 0.8);
-    border: 2px solid #ebebeb;
-    padding: 5em 5em;
+    padding: 1em 1em;
     font-size: 2,2em;
-    text-align: center;
-    align-content: center;
-    justify-content: center;
-    
-    
-
 }
 
-.message{
-    padding: 5em 5em;
-    display:column;
-    font-size: 30px; 
+#message{
+    display:column; 
     border: 2px solid #ebebeb;
-    font-size: 2,2em;
-    text-align: center;
-    align-content: center;
+    font-family: "Roboto", serif;
+    font-weight: lighter;
+    font-size: 1rem;
+   
+}
+.contact-client .container  h2{
+    text-align: left;
 }
 
+.form{
+    text-align: left;
+}
+.form input{
+    font-family: "Roboto", serif;
+    font-weight: lighter;
+    font-size: 1rem;
+}
+
+.contact-client .container .column2 .grid-item{
+    padding: 0.5rem;
+    border: none;
+}
 
 .column2{
     display:grid;
     display: inline-grid;
     grid-template-columns: auto auto;
-    grid-template-rows: auto auto auto auto auto;
-    background-color: yellow;
-    float: right;
-   
-    
-
-   
+    grid-template-rows: auto auto auto auto auto;  
 }
 
 
