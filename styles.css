@@ -360,19 +360,18 @@ font-family: "HammersmithOne-Regular" sans-serif;
     font-size: 1rem;
     font-family: "Roboto";
     color: rgb(255, 255, 255);
-    
 }
 
 .footer .container .grid-container {
     margin: 0;
     padding: 3rem 0 3rem;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: auto auto auto;
 }
 
 .footer .container .grid-container .grid-item {
     background-color: transparent;
     margin: 0;
-    border: 1px solid green;
+    border: 0;
     padding: 1rem;
 }
 
@@ -427,6 +426,7 @@ font-family: "HammersmithOne-Regular" sans-serif;
     color: white;
     font-size: 1rem;
     font-family: "Roboto";
+    text-align: center;
 }
 
 .button-newsletter {
