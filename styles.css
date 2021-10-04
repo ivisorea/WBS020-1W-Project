@@ -151,13 +151,25 @@ hr{
 }
  .watch {
     display: flex;
+    align-content: center;
     justify-content: center;
     background-image: url(/images/bgk-middle.png);
-    height: 30vh;
+    height: 44vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    color: white;
+    
    
+}
+.watch h4{
+    color: white;
+    text-align: center; 
+}
+.small{
+    display: block; 
+    text-align: center; 
+    
 }
 
 .expertise{
@@ -222,7 +234,7 @@ hr{
     border-top: 1px solid #ebebeb;
 }
 
-.team {
+.team{
     display: flex;
     flex-direction: column;
     justify-content: baseline;
@@ -235,6 +247,7 @@ hr{
     padding-bottom:3rem;
     min-height: 400px;
 }
+ 
 
 .team .container{
     text-align: center;
@@ -244,6 +257,7 @@ hr{
 }
 
 .team h3 {
+    font-size: 2rem;
     color:white;
     font-family: "RlayfairDisplaySC", serif;
 }
@@ -253,7 +267,7 @@ hr{
 }
 
 .team hr{
-    background-color: white;
+    background-color: grey;
     width: 50px;
     height: 1px;
 }
@@ -262,25 +276,27 @@ hr{
     display:flex;
     justify-content: space-around;
    
-    margin-right:17rem;
-    margin-left:17rem;
-    border:3px solid yellow;
+    margin-right:18rem;
+    margin-left:18rem;
+     
 }
 
 .teamPictures img {
-  
-     
+  max-width: 20rem;
+  max-height: 24rem;
 }
 
 .framesTeam{
     border:3px solid grey;
 padding:0 0 0 0;
-margin:2rem 2rem;
+justify-content: space-around; 
+gap: 2em;
+margin: 1rem 2rem;
 }
 
 .framesTeam > h4{
     color:white;
-     
+    padding :1rem 1rem;
      
 }
 
@@ -293,12 +309,59 @@ margin:2rem 2rem;
 }
 
 .contact-client{
+    display: flexbox;
+    background-color: teal;
+    
+}  
+
+.row{
     display: flex;
-    height: 30vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+   
 }
+
+.column1, .column2{
+    flex: 50%;
+
+}
+.column1{
+    display:column;
+    font-size: 30px; 
+    background-color: rgba(184, 20, 20, 0.8);
+    border: 2px solid #ebebeb;
+    padding: 5em 5em;
+    font-size: 2,2em;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    
+    
+
+}
+
+.message{
+    padding: 5em 5em;
+    display:column;
+    font-size: 30px; 
+    border: 2px solid #ebebeb;
+    font-size: 2,2em;
+    text-align: center;
+    align-content: center;
+}
+
+
+.column2{
+    display:grid;
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto auto;
+    background-color: yellow;
+    float: right;
+   
+    
+
+   
+}
+
 
 .footer{
     background-image: url(/images/bgk-footer.png);
