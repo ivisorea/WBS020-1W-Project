@@ -244,6 +244,7 @@ hr{
 }
 
 .team h3 {
+    font-size: 2rem;
     color:white;
     font-family: "RlayfairDisplaySC", serif;
 }
@@ -253,7 +254,7 @@ hr{
 }
 
 .team hr{
-    background-color: white;
+    background-color: grey;
     width: 50px;
     height: 1px;
 }
@@ -262,18 +263,18 @@ hr{
     display:flex;
     justify-content: space-around;
    
-    margin-right:17rem;
-    margin-left:17rem;
-    border:3px solid yellow;
-}
-
-.teamPictures img {
-  
+    margin-right:18rem;
+    margin-left:18rem;
      
 }
 
+.teamPictures img {
+  max-width: 20rem;
+  max-height: 24rem;
+}
+
 .framesTeam{
-    border:3px solid red;
+    border:3px solid grey;
 padding:0 0 0 0;
 justify-content: space-around; 
 gap: 2em;
