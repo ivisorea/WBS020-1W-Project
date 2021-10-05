@@ -330,13 +330,17 @@ margin: 1rem 2rem;
     padding: 1em 1em;
     font-size: 2,2em;
 }
-
-#message{
-    display:column; 
+.mywidth {
+    width: 100%;
+    height: auto;
+    min-width: 100px;
     border: 2px solid #ebebeb;
+    color: rgba(12, 12, 12, 0.438);
     font-family: "Roboto", serif;
     font-weight: lighter;
     font-size: 1rem;
+  }
+
    
 }
 .contact-client .container  h2{
